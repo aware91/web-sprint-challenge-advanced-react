@@ -9,7 +9,7 @@ export default class PlantList extends Component {
       plants: []
     }
   }
-
+  // CDM fetch data from localhost
   componentDidMount() {
       fetch('http://localhost:3333/plants')
       .then(res => res.json())
